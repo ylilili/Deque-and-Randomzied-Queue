@@ -3,7 +3,9 @@
 Updated 1 hour ago
 Programming Assignment: Deques and Randomized Queues Passed · 100/100 points. Correctness: 45/45 tests passed Memory: 134/134 tests passed Timing: 191/193 tests passed
 
-Timing RandomizedQueue *----------------------------------------------------------- Test 1: make n calls to enqueue() followed by n calls to dequeue(); count calls to StdRandom
+Timing RandomizedQueue 
+*----------------------------------------------------------- 
+Test 1: make n calls to enqueue() followed by n calls to dequeue(); count calls to StdRandom
 
 n = 10
 
@@ -20,7 +22,9 @@ n = 1000
 dequeue() should call StdRandom at most once
 number of elementary StdRandom operations = 2
 failed enqueueing item 27 of 1000
-==> FAILED Test 3: make n calls to enqueue() and iterate over the n items; count calls to StdRandom
+==> FAILED 
+
+Test 3: make n calls to enqueue() and iterate over the n items; count calls to StdRandom
 
 n = 10
 
